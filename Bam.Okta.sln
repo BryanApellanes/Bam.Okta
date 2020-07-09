@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bam.Okta.RazorPages", "Bam.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bam.Okta", "Bam.Okta\Bam.Okta.csproj", "{A9FC8762-456D-4689-9DCB-B4A5322FDFDA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bam.net.core", "..\..\repos\Bam.Net.Core\_lib\bam.net.core\bam.net.core.csproj", "{D834484F-C9D4-4C34-8AB1-C36C1C2C20FF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,14 @@ Global
 		{A9FC8762-456D-4689-9DCB-B4A5322FDFDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A9FC8762-456D-4689-9DCB-B4A5322FDFDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A9FC8762-456D-4689-9DCB-B4A5322FDFDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A7C7959-BE9C-4C7F-B9B1-0CDE6872D287}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A7C7959-BE9C-4C7F-B9B1-0CDE6872D287}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A7C7959-BE9C-4C7F-B9B1-0CDE6872D287}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A7C7959-BE9C-4C7F-B9B1-0CDE6872D287}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D834484F-C9D4-4C34-8AB1-C36C1C2C20FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D834484F-C9D4-4C34-8AB1-C36C1C2C20FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D834484F-C9D4-4C34-8AB1-C36C1C2C20FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D834484F-C9D4-4C34-8AB1-C36C1C2C20FF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
