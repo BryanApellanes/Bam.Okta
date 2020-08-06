@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="RIDER_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$/../.." />
+    <content url="file://$MODULE_DIR$/../../../../repos/Bam.Net.Core/shared/bam.net.shared" />
+    <content url="file://$MODULE_DIR$/../../../../repos/Bam.Net.Core/_lib/bam.net.core" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
