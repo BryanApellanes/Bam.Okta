@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="RIDER_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$USER_HOME$/.nuget/packages/microsoft.net.test.sdk/16.2.0/build/netcoreapp1.0" />
+    <content url="file://$USER_HOME$/.nuget/packages/xunit.runner.visualstudio/2.3.1/build/netcoreapp1.0/xunit.runner.reporters.netcoreapp10.dll" />
+    <content url="file://$USER_HOME$/.nuget/packages/xunit.runner.visualstudio/2.3.1/build/netcoreapp1.0/xunit.runner.utility.netcoreapp10.dll" />
+    <content url="file://$USER_HOME$/.nuget/packages/xunit.runner.visualstudio/2.3.1/build/netcoreapp1.0/xunit.runner.visualstudio.dotnetcore.testadapter.dll" />
+    <content url="file://$USER_HOME$/.nuget/packages/xunit.runner.visualstudio/2.4.0/build/netcoreapp1.0/xunit.runner.reporters.netcoreapp10.dll" />
+    <content url="file://$USER_HOME$/.nuget/packages/xunit.runner.visualstudio/2.4.0/build/netcoreapp1.0/xunit.runner.utility.netcoreapp10.dll" />
+    <content url="file://$USER_HOME$/.nuget/packages/xunit.runner.visualstudio/2.4.0/build/netcoreapp1.0/xunit.runner.visualstudio.dotnetcore.testadapter.dll" />
+    <content url="file://$MODULE_DIR$/../../../../Okta.Auth.Sdk" />
+    <content url="file://$MODULE_DIR$/../../../../Okta.Auth.Sdk.IntegrationTests" />
+    <content url="file://$MODULE_DIR$/../../../../Okta.Auth.Sdk.UnitTests" />
+    <content url="file://$MODULE_DIR$/../../../../Okta.Sdk.Abstractions" />
+    <content url="file://$MODULE_DIR$/../../../../Okta.Sdk.Abstractions.UnitTests" />
+    <content url="file://$MODULE_DIR$/../../../BamFrameworkCore/Bam.Net/_lib/bam.net.core" />
+    <content url="file://$MODULE_DIR$/../../../BamFrameworkCore/Bam.Net/shared/bam.net.shared" />
+    <content url="file://$MODULE_DIR$/../../../BamFrameworkCore/BamAppServices/_lib/bam.github" />
+    <content url="file://$MODULE_DIR$/../.." />
+    <content url="file://$MODULE_DIR$/../../../../stylecop.json" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
