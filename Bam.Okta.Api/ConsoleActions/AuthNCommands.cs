@@ -7,9 +7,12 @@ using Bam.Net;
 using Bam.Net.CommandLine;
 using Bam.Net.Testing;
 using Okta.Auth.Sdk;
+using Bam.Okta.Api;
 using Okta.Sdk;
+using Okta.Sdk.Abstractions;
+using HttpRequest = Okta.Sdk.Abstractions.HttpRequest;
 
-namespace Okta.AuthN.ConsoleActions
+namespace Bam.Okta.Api.ConsoleActions
 {
     public partial class AuthNCommands: CommandLineTestInterface
     {
@@ -89,7 +92,7 @@ namespace Okta.AuthN.ConsoleActions
             //object options = GetEnrollFactorOptions(selectedFactor);
 
             AuthenticationClient authenticationClient = new AuthenticationClient();
-            Okta.Sdk.Abstractions.HttpRequest request = new Okta.Sdk.Abstractions.HttpRequest()
+            HttpRequest request = new HttpRequest()
             {
                 Uri = "/api/v1/authn/factors?updatePhone=true",
                 Payload = new EnrollSmsFactorOptions

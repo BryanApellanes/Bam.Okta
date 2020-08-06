@@ -1,4 +1,4 @@
-﻿namespace Okta.AuthN
+﻿namespace Bam.Okta.Api
 {
     public enum Factors
     {

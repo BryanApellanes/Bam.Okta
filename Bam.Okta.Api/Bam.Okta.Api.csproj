@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+        <RootNamespace>okta_authn</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\..\Okta.Auth.Sdk\Okta.Auth.Sdk.csproj" />
+      <ProjectReference Include="..\..\BamFrameworkCore\Bam.Net\_lib\bam.net.core\bam.net.core.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Okta.Sdk" Version="3.1.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Remove="Bam.Okta\**" />
+      <Compile Remove="Bam.Okta.Mvc\**" />
+      <Compile Remove="Bam.Okta.RazorPages\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Remove="Bam.Okta\**" />
+      <EmbeddedResource Remove="Bam.Okta.Mvc\**" />
+      <EmbeddedResource Remove="Bam.Okta.RazorPages\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="Bam.Okta\**" />
+      <None Remove="Bam.Okta.Mvc\**" />
+      <None Remove="Bam.Okta.RazorPages\**" />
+    </ItemGroup>
+
+</Project>

@@ -1,8 +1,8 @@
 ﻿using System;
 using Bam.Net;
-using Okta.AuthN.ConsoleActions;
+using Bam.Okta.Api.ConsoleActions;
 
-namespace Okta.AuthN
+namespace Bam.Okta.Api
 {
     class Program: CommandLineTool
     {

@@ -1,6 +1,6 @@
 ﻿using Bam.Net;
 
-namespace Okta.AuthN.ConsoleActions
+namespace Bam.Okta.Api.ConsoleActions
 {
     public class ArgumentManager : CommandLineTool
     {

@@ -2,7 +2,7 @@
 using Okta.Auth.Sdk;
 using Okta.Sdk;
 
-namespace Okta
+namespace Bam.Okta.Api
 {
     public class OktaApi
     {

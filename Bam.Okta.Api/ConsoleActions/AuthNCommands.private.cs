@@ -4,9 +4,10 @@ using System.Linq;
 using Bam.Net;
 using Bam.Net.CommandLine;
 using Okta.Auth.Sdk;
+using Bam.Okta.Api;
 using Okta.Sdk;
 
-namespace Okta.AuthN.ConsoleActions
+namespace Bam.Okta.Api.ConsoleActions
 {
     public partial class AuthNCommands
     {
