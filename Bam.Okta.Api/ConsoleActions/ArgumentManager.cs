@@ -7,6 +7,9 @@ namespace Bam.Okta.Api.ConsoleActions
         public static void AddArguments()
         {
             AddValidArgument("userId", false);
+            AddValidArgument("phoneNumber", false);
+            AddValidArgument("factorId", false);
+            AddValidArgument("passCode", false);
         }
     }
 }

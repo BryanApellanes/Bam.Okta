@@ -12,4 +12,8 @@
     <PackageReference Include="Okta.Sdk" Version="2.0.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\BamFrameworkCore\Bam.Net\_lib\bam.net.core\bam.net.core.csproj" />
+  </ItemGroup>
+
 </Project>

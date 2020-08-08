@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Bam.Net;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -25,6 +26,9 @@ namespace Bam.Okta.Mvc
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            string oktaDomain = BamProfile.ReadDataFile("okta/domain").Trim();
+            string clientId = BamProfile.ReadDataFile("okta/client-id").Trim();
+            string clientSecret = BamProfile.ReadDataFile("okta/client-secret").Trim();
             services.AddAuthentication(options =>
             {
                 options.DefaultAuthenticateScheme = CookieAuthenticationDefaults.AuthenticationScheme;
@@ -35,9 +39,9 @@ namespace Bam.Okta.Mvc
             .AddOktaMvc(new OktaMvcOptions
             {
                 // Replace these values with your Okta configuration
-                OktaDomain = "https://dev-532503.okta.com",
-                ClientId = "0oaaj69frsAHYpPfK4x6",
-                ClientSecret = "N32bgzbr9dAahDBWjhVJzSqPoqzGxq_SYTAAuqOS"
+                OktaDomain = oktaDomain,
+                ClientId = clientId,
+                ClientSecret = clientSecret,
             });
 
             services.AddControllersWithViews();

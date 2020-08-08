@@ -18,6 +18,10 @@
     <content url="file://$MODULE_DIR$/../../../BamFrameworkCore/BamAppServices/_lib/bam.github" />
     <content url="file://$MODULE_DIR$/../.." />
     <content url="file://$MODULE_DIR$/../../../../stylecop.json" />
+    <content url="file://$MODULE_DIR$/../../../../../okta-sdk-dotnet/src/Okta.Sdk" />
+    <content url="file://$MODULE_DIR$/../../../../../okta-sdk-dotnet/src/Okta.Sdk.IntegrationTests" />
+    <content url="file://$MODULE_DIR$/../../../../../okta-sdk-dotnet/src/Okta.Sdk.UnitTests" />
+    <content url="file://$MODULE_DIR$/../../../../../okta-sdk-dotnet/src/stylecop.json" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>
