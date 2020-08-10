@@ -14,6 +14,7 @@
     <content url="file://$MODULE_DIR$/../../../../Okta.Sdk.Abstractions" />
     <content url="file://$MODULE_DIR$/../../../../Okta.Sdk.Abstractions.UnitTests" />
     <content url="file://$MODULE_DIR$/../../../BamFrameworkCore/Bam.Net/_lib/bam.net.core" />
+    <content url="file://$MODULE_DIR$/../../../BamFrameworkCore/Bam.Net/shared/bam.net.schema.org" />
     <content url="file://$MODULE_DIR$/../../../BamFrameworkCore/Bam.Net/shared/bam.net.shared" />
     <content url="file://$MODULE_DIR$/../../../BamFrameworkCore/BamAppServices/_lib/bam.github" />
     <content url="file://$MODULE_DIR$/../.." />
