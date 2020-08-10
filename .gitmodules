@@ -1,0 +1,3 @@
+[submodule "BamFrameworkCore"]
+	path = BamFrameworkCore
+	url = git@github.com:BryanApellanes/BamFrameworkCore.git
