@@ -14,15 +14,10 @@
     <content url="file://$MODULE_DIR$/../../../../Okta.Sdk.Abstractions" />
     <content url="file://$MODULE_DIR$/../../../../Okta.Sdk.Abstractions.UnitTests" />
     <content url="file://$MODULE_DIR$/../../../BamFrameworkCore/Bam.Net/_lib/bam.net.core" />
-    <content url="file://$MODULE_DIR$/../../../BamFrameworkCore/Bam.Net/shared/bam.net.schema.org" />
     <content url="file://$MODULE_DIR$/../../../BamFrameworkCore/Bam.Net/shared/bam.net.shared" />
     <content url="file://$MODULE_DIR$/../../../BamFrameworkCore/BamAppServices/_lib/bam.github" />
     <content url="file://$MODULE_DIR$/../.." />
     <content url="file://$MODULE_DIR$/../../../../stylecop.json" />
-    <content url="file://$MODULE_DIR$/../../../../../okta-sdk-dotnet/src/Okta.Sdk" />
-    <content url="file://$MODULE_DIR$/../../../../../okta-sdk-dotnet/src/Okta.Sdk.IntegrationTests" />
-    <content url="file://$MODULE_DIR$/../../../../../okta-sdk-dotnet/src/Okta.Sdk.UnitTests" />
-    <content url="file://$MODULE_DIR$/../../../../../okta-sdk-dotnet/src/stylecop.json" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>
