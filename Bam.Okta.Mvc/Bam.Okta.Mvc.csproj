@@ -13,7 +13,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\BamFrameworkCore\Bam.Net\_lib\bam.net.core\bam.net.core.csproj" />
+    <ProjectReference Include="..\BamFrameworkCore\Bam.Net\_lib\bam.net.core\bam.net.core.csproj" />
   </ItemGroup>
+
 
 </Project>

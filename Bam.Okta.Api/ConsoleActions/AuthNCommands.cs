@@ -16,14 +16,14 @@ using HttpRequest = Okta.Sdk.Abstractions.HttpRequest;
 
 namespace Bam.Okta.Api.ConsoleActions
 {
-    public partial class AuthNCommands: CommandLineTestInterface
+    public partial class AuthNCommands: CommandLineTool
     {
         [ConsoleAction("Test")]
         public async Task Test()
         {
-            ProcessInfo current = ProcessInfo.Current;
+            /*ProcessInfo current = ProcessInfo.Current;
             ProcessStartInfo startInfo = current.ToStartInfo();
-            Message.Print(current);
+            Message.Print(current);*/
         }
         
         [ConsoleAction("show-config", "Show the current configuration for the default OktaClient")]

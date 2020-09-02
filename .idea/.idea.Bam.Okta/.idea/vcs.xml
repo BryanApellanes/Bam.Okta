@@ -2,5 +2,14 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/BamFrameworkCore" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/BamFrameworkCore/Bam.Net" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/BamFrameworkCore/BamAppServer" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/BamFrameworkCore/BamAppServices" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/BamFrameworkCore/BamAppServices/_lib/bam.github" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/BamFrameworkCore/BamAppServices/_tools/bamheart" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/BamFrameworkCore/BamToolkit" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/BamFrameworkCore/Infra" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/BamFrameworkCore/Server1" vcs="Git" />
   </component>
 </project>
