@@ -11,48 +11,58 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bam.Okta.Mvc", "Bam.Okta.Mv
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bam.Okta.RazorPages", "Bam.Okta.RazorPages\Bam.Okta.RazorPages.csproj", "{6BC67BC4-AF58-45BE-91FD-1A51F01F925D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bam.Okta.DevEx", "Bam.Okta.DevEx\Bam.Okta.DevEx.csproj", "{6F1FCB94-5BA1-4A86-BCB2-61A1C8D3D218}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bam.Okta.DevEx", "Bam.Okta.DevEx\Bam.Okta.DevEx.csproj", "{6F1FCB94-5BA1-4A86-BCB2-61A1C8D3D218}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bam.Okta.Api", "Bam.Okta.Api\Bam.Okta.Api.csproj", "{ADCB2B90-8678-41DC-9A10-EFDDE83F46AD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bam.Okta.Api", "Bam.Okta.Api\Bam.Okta.Api.csproj", "{ADCB2B90-8678-41DC-9A10-EFDDE83F46AD}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "okta", "okta", "{D06968A6-B669-48F9-A2EE-DCF65DC1AE1F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "auth", "auth", "{86871A40-4CAD-48D0-9E9F-2BD0DEC82812}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bam.github", "BamFrameworkCore\BamAppServices\_lib\bam.github\bam.github.csproj", "{9E420A92-DFD8-4BAD-BBCE-2F3EC0FC9F9D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "bam.github", "BamFrameworkCore\BamAppServices\_lib\bam.github\bam.github.csproj", "{9E420A92-DFD8-4BAD-BBCE-2F3EC0FC9F9D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bam.net.core", "BamFrameworkCore\Bam.Net\_lib\bam.net.core\bam.net.core.csproj", "{7D3205DE-80C9-4A40-929A-8CA86A491F70}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "bam.net.core", "BamFrameworkCore\Bam.Net\_lib\bam.net.core\bam.net.core.csproj", "{7D3205DE-80C9-4A40-929A-8CA86A491F70}"
 EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "bam.net.shared", "BamFrameworkCore\Bam.Net\shared\bam.net.shared\bam.net.shared.shproj", "{8F2CB78E-8C2E-45C6-97A0-C38F60A85E98}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Okta.Auth.Sdk", "..\okta-auth-dotnet\Okta.Auth.Sdk\Okta.Auth.Sdk.csproj", "{BA6D08CC-A197-4EFB-B54F-507C823A0A96}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Okta.Auth.Sdk", "..\okta-auth-dotnet\Okta.Auth.Sdk\Okta.Auth.Sdk.csproj", "{BA6D08CC-A197-4EFB-B54F-507C823A0A96}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Okta.Auth.Sdk.IntegrationTests", "..\okta-auth-dotnet\Okta.Auth.Sdk.IntegrationTests\Okta.Auth.Sdk.IntegrationTests.csproj", "{DD054F4C-BED4-446D-9F8D-8EAF23C35210}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Okta.Auth.Sdk.IntegrationTests", "..\okta-auth-dotnet\Okta.Auth.Sdk.IntegrationTests\Okta.Auth.Sdk.IntegrationTests.csproj", "{DD054F4C-BED4-446D-9F8D-8EAF23C35210}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Okta.Auth.Sdk.UnitTests", "..\okta-auth-dotnet\Okta.Auth.Sdk.UnitTests\Okta.Auth.Sdk.UnitTests.csproj", "{199BFC37-C387-41C4-8D75-844E7AA10543}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Okta.Auth.Sdk.UnitTests", "..\okta-auth-dotnet\Okta.Auth.Sdk.UnitTests\Okta.Auth.Sdk.UnitTests.csproj", "{199BFC37-C387-41C4-8D75-844E7AA10543}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "mgmt", "mgmt", "{7817B5EF-3ADA-4221-B61C-1423CF8C5E65}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Okta.Sdk", "..\okta-sdk-dotnet\src\Okta.Sdk\Okta.Sdk.csproj", "{3DC51A3D-68B7-4838-8C78-3780168A6411}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Okta.Sdk", "..\okta-sdk-dotnet\src\Okta.Sdk\Okta.Sdk.csproj", "{3DC51A3D-68B7-4838-8C78-3780168A6411}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Okta.Sdk.Abstractions", "..\okta-auth-dotnet\Okta.Sdk.Abstractions\Okta.Sdk.Abstractions.csproj", "{45CA3CE2-D98D-420D-B2C2-405FD9BF7F55}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Okta.Sdk.Abstractions", "..\okta-auth-dotnet\Okta.Sdk.Abstractions\Okta.Sdk.Abstractions.csproj", "{45CA3CE2-D98D-420D-B2C2-405FD9BF7F55}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Okta.Sdk.Abstractions.UnitTests", "..\okta-auth-dotnet\Okta.Sdk.Abstractions.UnitTests\Okta.Sdk.Abstractions.UnitTests.csproj", "{4A1CFBEA-C115-4580-992C-B5949090C215}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Okta.Sdk.Abstractions.UnitTests", "..\okta-auth-dotnet\Okta.Sdk.Abstractions.UnitTests\Okta.Sdk.Abstractions.UnitTests.csproj", "{4A1CFBEA-C115-4580-992C-B5949090C215}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Okta.Sdk.IntegrationTests", "..\okta-sdk-dotnet\src\Okta.Sdk.IntegrationTests\Okta.Sdk.IntegrationTests.csproj", "{99D3AB14-1A3C-4EB8-B59E-4E701B24F122}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Okta.Sdk.IntegrationTests", "..\okta-sdk-dotnet\src\Okta.Sdk.IntegrationTests\Okta.Sdk.IntegrationTests.csproj", "{99D3AB14-1A3C-4EB8-B59E-4E701B24F122}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Okta.Sdk.UnitTests", "..\okta-sdk-dotnet\src\Okta.Sdk.UnitTests\Okta.Sdk.UnitTests.csproj", "{6FB268A3-5FE6-4882-B78C-CA89A40826CA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Okta.Sdk.UnitTests", "..\okta-sdk-dotnet\src\Okta.Sdk.UnitTests\Okta.Sdk.UnitTests.csproj", "{6FB268A3-5FE6-4882-B78C-CA89A40826CA}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "appservices", "appservices", "{E2202B9F-DE9B-44FB-BD6C-022E482A92FA}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "bam.net", "bam.net", "{2380197F-F73C-45E5-A0A6-B3C61F376C1F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bamheart", "BamFrameworkCore\BamAppServices\_tools\bamheart\bamheart.csproj", "{D734BDCD-67F0-4613-B204-7C252CDF593E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "bamheart", "BamFrameworkCore\BamAppServices\_tools\bamheart\bamheart.csproj", "{D734BDCD-67F0-4613-B204-7C252CDF593E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "bam.remote", "BamFrameworkCore\BamAppServices\_lib\bam.remote\bam.remote.csproj", "{A7BA9DA2-9253-48C1-9589-B6B32266BBB9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{CE730F60-0557-41AA-8E58-98B28DBCAE29}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "bam.remote.tests", "BamFrameworkCore\BamAppServices\_tests\bam.remote.tests\bam.remote.tests.csproj", "{ED273267-DD0A-4AA1-B953-4CA5396D7F5D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "bambot", "BamFrameworkCore\BamAppServices\_tools\bambot\bambot.csproj", "{7F31FB14-C379-4C9C-AA23-D5296CCC3CF4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "bam.control", "BamFrameworkCore\BamAppServices\_tools\bam.control\bam.control.csproj", "{C3F11A6C-4DD5-4157-A81A-1B94C007CD6C}"
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
-		..\BamFrameworkCore\Bam.Net\shared\bam.net.shared\bam.net.shared.projitems*{8f2cb78e-8c2e-45c6-97a0-c38f60a85e98}*SharedItemsImports = 13
-		..\BamFrameworkCore\Bam.Net\shared\bam.net.shared\bam.net.shared.projitems*{b85e7252-3e2b-44b6-ac70-6a83016fdbd9}*SharedItemsImports = 5
+		BamFrameworkCore\Bam.Net\shared\bam.net.shared\bam.net.shared.projitems*{7d3205de-80c9-4a40-929a-8ca86a491f70}*SharedItemsImports = 5
+		BamFrameworkCore\Bam.Net\shared\bam.net.shared\bam.net.shared.projitems*{8f2cb78e-8c2e-45c6-97a0-c38f60a85e98}*SharedItemsImports = 13
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,6 +127,24 @@ Global
 		{6FB268A3-5FE6-4882-B78C-CA89A40826CA}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D734BDCD-67F0-4613-B204-7C252CDF593E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D734BDCD-67F0-4613-B204-7C252CDF593E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D734BDCD-67F0-4613-B204-7C252CDF593E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D734BDCD-67F0-4613-B204-7C252CDF593E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7BA9DA2-9253-48C1-9589-B6B32266BBB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7BA9DA2-9253-48C1-9589-B6B32266BBB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7BA9DA2-9253-48C1-9589-B6B32266BBB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7BA9DA2-9253-48C1-9589-B6B32266BBB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED273267-DD0A-4AA1-B953-4CA5396D7F5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED273267-DD0A-4AA1-B953-4CA5396D7F5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED273267-DD0A-4AA1-B953-4CA5396D7F5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED273267-DD0A-4AA1-B953-4CA5396D7F5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F31FB14-C379-4C9C-AA23-D5296CCC3CF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F31FB14-C379-4C9C-AA23-D5296CCC3CF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F31FB14-C379-4C9C-AA23-D5296CCC3CF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F31FB14-C379-4C9C-AA23-D5296CCC3CF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3F11A6C-4DD5-4157-A81A-1B94C007CD6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3F11A6C-4DD5-4157-A81A-1B94C007CD6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3F11A6C-4DD5-4157-A81A-1B94C007CD6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3F11A6C-4DD5-4157-A81A-1B94C007CD6C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -127,6 +155,9 @@ Global
 		{6F1FCB94-5BA1-4A86-BCB2-61A1C8D3D218} = {0304201B-DFDB-407B-89DB-E9B44E192DE2}
 		{ADCB2B90-8678-41DC-9A10-EFDDE83F46AD} = {0304201B-DFDB-407B-89DB-E9B44E192DE2}
 		{86871A40-4CAD-48D0-9E9F-2BD0DEC82812} = {D06968A6-B669-48F9-A2EE-DCF65DC1AE1F}
+		{9E420A92-DFD8-4BAD-BBCE-2F3EC0FC9F9D} = {E2202B9F-DE9B-44FB-BD6C-022E482A92FA}
+		{7D3205DE-80C9-4A40-929A-8CA86A491F70} = {2380197F-F73C-45E5-A0A6-B3C61F376C1F}
+		{8F2CB78E-8C2E-45C6-97A0-C38F60A85E98} = {2380197F-F73C-45E5-A0A6-B3C61F376C1F}
 		{BA6D08CC-A197-4EFB-B54F-507C823A0A96} = {86871A40-4CAD-48D0-9E9F-2BD0DEC82812}
 		{DD054F4C-BED4-446D-9F8D-8EAF23C35210} = {86871A40-4CAD-48D0-9E9F-2BD0DEC82812}
 		{199BFC37-C387-41C4-8D75-844E7AA10543} = {86871A40-4CAD-48D0-9E9F-2BD0DEC82812}
@@ -137,11 +168,13 @@ Global
 		{99D3AB14-1A3C-4EB8-B59E-4E701B24F122} = {7817B5EF-3ADA-4221-B61C-1423CF8C5E65}
 		{6FB268A3-5FE6-4882-B78C-CA89A40826CA} = {7817B5EF-3ADA-4221-B61C-1423CF8C5E65}
 		{E2202B9F-DE9B-44FB-BD6C-022E482A92FA} = {5E03E415-C8D8-4408-A441-6E61213CEDEB}
-		{9E420A92-DFD8-4BAD-BBCE-2F3EC0FC9F9D} = {E2202B9F-DE9B-44FB-BD6C-022E482A92FA}
 		{2380197F-F73C-45E5-A0A6-B3C61F376C1F} = {5E03E415-C8D8-4408-A441-6E61213CEDEB}
-		{7D3205DE-80C9-4A40-929A-8CA86A491F70} = {2380197F-F73C-45E5-A0A6-B3C61F376C1F}
-		{8F2CB78E-8C2E-45C6-97A0-C38F60A85E98} = {2380197F-F73C-45E5-A0A6-B3C61F376C1F}
 		{D734BDCD-67F0-4613-B204-7C252CDF593E} = {E2202B9F-DE9B-44FB-BD6C-022E482A92FA}
+		{A7BA9DA2-9253-48C1-9589-B6B32266BBB9} = {E2202B9F-DE9B-44FB-BD6C-022E482A92FA}
+		{CE730F60-0557-41AA-8E58-98B28DBCAE29} = {E2202B9F-DE9B-44FB-BD6C-022E482A92FA}
+		{ED273267-DD0A-4AA1-B953-4CA5396D7F5D} = {CE730F60-0557-41AA-8E58-98B28DBCAE29}
+		{7F31FB14-C379-4C9C-AA23-D5296CCC3CF4} = {E2202B9F-DE9B-44FB-BD6C-022E482A92FA}
+		{C3F11A6C-4DD5-4157-A81A-1B94C007CD6C} = {E2202B9F-DE9B-44FB-BD6C-022E482A92FA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DF6F2C19-8D14-4D7B-9A8F-C3F2B2E5AABC}

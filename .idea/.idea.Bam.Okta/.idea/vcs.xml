@@ -7,6 +7,7 @@
     <mapping directory="$PROJECT_DIR$/BamFrameworkCore/BamAppServer" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/BamFrameworkCore/BamAppServices" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/BamFrameworkCore/BamAppServices/_lib/bam.github" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/BamFrameworkCore/BamAppServices/_tools/bambot" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/BamFrameworkCore/BamAppServices/_tools/bamheart" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/BamFrameworkCore/BamToolkit" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/BamFrameworkCore/Infra" vcs="Git" />
